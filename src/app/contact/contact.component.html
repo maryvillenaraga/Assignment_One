@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="contact.component.scss">
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo">TechnoMary.</a>
+
+    <nav class="navbar">
+        <a routerLink="home" routerLinkActive="active">Home</a>&nbsp;&nbsp;
+        <a routerLink="about" routerLinkActive="active">About</a>&nbsp;&nbsp;
+        <a routerLink="projects" routerLinkActive="active">Projects</a>&nbsp;&nbsp;
+        <a routerLink="services" routerLinkActive="active">Services</a>&nbsp;&nbsp;
+        <a routerLink="contact" routerLinkActive="active">Contact Me</a>&nbsp;&nbsp;
+    </nav>
+  </header>
+
+  <section class="home">
+    <div class="home-content">
+        <h1> Reach Out & Connect! </h1>
+        <br>
+        <h3> Contact Information: </h3>
+
+        <p>
+          Phone: 647-123-4567
+          <br><br>
+          Email: mcnaraga123@gmail.com
+          <br><br>
+
+          I prioritize responsiveness and excellent communication with my valued visitors. When you reach out to me through my website,
+          rest assured that I am committed to providing a prompt and attentive response. Whether you have a question, feedback, or require assistance,
+          I am ready to address your needs. I understand the importance of timely and effective communication, and I strive to ensure that every interaction
+          is met with professionalism and attentiveness. You can trust me to be responsive and attentive to your inquiries, helping to create a positive
+          and engaging experience when you connect with me through my website.
+          <br><br>
+        </p>
+
+
+    </div>
+
+      <div class="container">
+
+        <div class="panel">
+          <form action="home.html">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required><br>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required><br>
+
+            <label for="contactNumber">Contact Number:</label>
+            <input type="tel" id="contactNumber" name="contactNumber" required><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea><br>
+
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+
+    <span class="home-imgHover"></span>
+</section>
+
+</body>
+
+<router-outlet></router-outlet>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="home.component.scss">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo">TechnoMary.</a>
+
+    <nav class="navbar">
+        <a routerLink="home" routerLinkActive="active">Home</a>&nbsp;&nbsp;
+        <a routerLink="about" routerLinkActive="active">About</a>&nbsp;&nbsp;
+        <a routerLink="projects" routerLinkActive="active">Projects</a>&nbsp;&nbsp;
+        <a routerLink="services" routerLinkActive="active">Services</a>&nbsp;&nbsp;
+        <a routerLink="contact" routerLinkActive="active">Contact Me</a>&nbsp;&nbsp;
+    </nav>
+  </header>
+
+  <section class="home">
+    <div class="home-content">
+        <h1>Maryville Naraga</h1>
+        <h3>Software Engineering Tech Student</h3>
+
+        <p>
+          <br><br>
+          Welcome to my portfolio website! Delve into a realm of boundless imagination and artistic prowess as you step into my virtual gallery.
+          Here, I celebrate the artistry and innovation that breathe life into my projects, inviting you to witness the seamless fusion of design and functionality.
+          <br><br>
+          Each pixel tells a story, meticulously crafted to captivate hearts and minds. I invite you to lose yourself in the stunning visuals, intricate details,
+          and thought-provoking concepts that form the very essence of my work. Let my portfolio be your guide, inspiring you to explore uncharted territories of
+          creativity and envision the possibilities that lie within your own artistic endeavors. Welcome to a world where dreams take shape and extraordinary visions become reality.
+          <br><br>
+        </p>
+
+    </div>
+
+    <div class="home-sci">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-linkedin'></i></a>
+    </div>
+
+    <span class="home-imgHover"></span>
+</section>
+
+</body>
+
+<router-outlet></router-outlet>
+</html>
